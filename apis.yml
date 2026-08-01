@@ -1,8 +1,24 @@
 aid: qubit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qubit.png
 name: QuBit
-description: 'QuBit is a company surfaced as a portfolio company of accel, balderton-capital, sapphire-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: big-data. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'QuBit was a London-based ecommerce personalization and product-discovery
+  platform — customer-experience optimization, recommendations, A/B testing, and behavioral
+  big-data analytics — backed by Accel, Balderton Capital, and Sapphire Ventures. QuBit
+  was acquired by Coveo in 2021 and fully absorbed into the Coveo Merchandising Hub.
+  The qubit.com domain, its developer docs (docs.qubit.com), and every API and /.well-known/
+  endpoint now redirect to coveo.com and docs.coveo.com, so QuBit no longer operates
+  an independent public API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/qubit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,20 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: coveo
+x-acquired-year: 2021
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Personalization
+- Ecommerce
+- Recommendations
+- Customer Experience
 - Big Data
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +50,12 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.qubit.com
+  url: https://www.qubit.com
+- type: CompanyProfile
+  name: QuBit at Coveo
+  url: https://www.coveo.com/en/qubit
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
